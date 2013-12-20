@@ -51,7 +51,7 @@
     
     SKLabelNode *helloNode = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
-    helloNode.text = @"Hello, Wonderful World!";
+    helloNode.text = @"Hello, cruel World!";
     helloNode.fontSize = 42;
     helloNode.name = @"helloNode";
     helloNode.position = CGPointMake(CGRectGetMidX(self.frame),CGRectGetMidY(self.frame));
