@@ -22,6 +22,8 @@
 		71B3DCF01863D28F009AFF1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B3DCCF1863D28E009AFF1C /* UIKit.framework */; };
 		71B3DCF81863D28F009AFF1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71B3DCF61863D28F009AFF1C /* InfoPlist.strings */; };
 		71B3DCFA1863D28F009AFF1C /* testSpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B3DCF91863D28F009AFF1C /* testSpriteKitTests.m */; };
+		71B3DD041863D297009AFF1C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B3DD031863D297009AFF1C /* SpriteKit.framework */; };
+		71B3DD071863D31D009AFF1C /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B3DD061863D31D009AFF1C /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		71B3DCF51863D28F009AFF1C /* testSpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testSpriteKitTests-Info.plist"; sourceTree = "<group>"; };
 		71B3DCF71863D28F009AFF1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71B3DCF91863D28F009AFF1C /* testSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSpriteKitTests.m; sourceTree = "<group>"; };
+		71B3DD031863D297009AFF1C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		71B3DD051863D31D009AFF1C /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		71B3DD061863D31D009AFF1C /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B3DD041863D297009AFF1C /* SpriteKit.framework in Frameworks */,
 				71B3DCCE1863D28E009AFF1C /* CoreGraphics.framework in Frameworks */,
 				71B3DCD01863D28E009AFF1C /* UIKit.framework in Frameworks */,
 				71B3DCCC1863D28E009AFF1C /* Foundation.framework in Frameworks */,
@@ -103,6 +109,7 @@
 		71B3DCCA1863D28E009AFF1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71B3DD031863D297009AFF1C /* SpriteKit.framework */,
 				71B3DCCB1863D28E009AFF1C /* Foundation.framework */,
 				71B3DCCD1863D28E009AFF1C /* CoreGraphics.framework */,
 				71B3DCCF1863D28E009AFF1C /* UIKit.framework */,
@@ -120,6 +127,8 @@
 				71B3DCE01863D28F009AFF1C /* Main_iPad.storyboard */,
 				71B3DCE31863D28F009AFF1C /* ViewController.h */,
 				71B3DCE41863D28F009AFF1C /* ViewController.m */,
+				71B3DD051863D31D009AFF1C /* HelloScene.h */,
+				71B3DD061863D31D009AFF1C /* HelloScene.m */,
 				71B3DCE61863D28F009AFF1C /* Images.xcassets */,
 				71B3DCD21863D28E009AFF1C /* Supporting Files */,
 			);
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B3DCE51863D28F009AFF1C /* ViewController.m in Sources */,
+				71B3DD071863D31D009AFF1C /* HelloScene.m in Sources */,
 				71B3DCDC1863D28E009AFF1C /* AppDelegate.m in Sources */,
 				71B3DCD81863D28E009AFF1C /* main.m in Sources */,
 			);
